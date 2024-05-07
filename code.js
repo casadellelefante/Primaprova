@@ -1,7 +1,7 @@
 function ledOn(){
-    UART.write("LED2.set();\n");
+    UART.write("LED1.set();\n");
 }
 
 function ledOff(){
-    UART.write("LED2.reset();\n");
+    UART.write("LED1.reset();\n");
 }
